@@ -1,0 +1,8 @@
+fname = input("Please enter your first name: ")
+lname = input("Please enter your last name: ")
+age = input("Please enter your age: ")
+profession = input("Please enter your profession: ")
+hobby = input("Please enter your hobby: ")
+
+print(f"Hello, my name is {fname} {lname}. I am {age} years old.")
+print("I work as a {} and i like {}".format(profession, hobby))
