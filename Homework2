@@ -4,11 +4,8 @@ age = int(input("Please enter your age: "))
 date_of_birth = int(input("Please enter your date of birth: "))
 list = [fname, lname, age, date_of_birth]
 
-for i in range(1):
-    list.append(fname)
-    list.append(lname)
-    list.append(age)
-    list.append(date_of_birth)
+for i in range(0):
+    list.add(fname, lname, age, date_of_birth)
 print(list)
 
 if 0 <= age < 18:
